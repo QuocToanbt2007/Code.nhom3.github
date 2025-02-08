@@ -55,7 +55,20 @@
             background: #FFA07A;
             color: white;
         }
-		
+		.back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -78,6 +91,5 @@
             </tr>							
     </div>
     
-    <div class="home-pano">
-    <a href="https://quoctoanbt2007.github.io/Code.nhom3.github/" style="color: black; text-decoration: none;">🏠 HOME </a>
+    <a href="index.html" class="back-button">Quay về Trang chính</a>
 
