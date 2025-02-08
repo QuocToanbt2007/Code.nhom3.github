@@ -1,95 +1,148 @@
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> TRAN TRONG DUY </title>
+    <title>TRỌNG DUY </title>
     <style>
-		h1{
-			display: none;
-			}
+        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
         body {
-            font-family: Script, cursive;
-            background: linear-gradient(to bottom, #FFDAB9, #FFFFFF);
+            font-family: 'Lora', serif;
             margin: 0;
             padding: 0;
-            text-align: center;
+            background-color: #f9f9f9;
         }
-        .pano {
-            background: #FFDAB9;
-            color: white;
-            padding: 15px;
+
+        /* Pano đầu trang */
+        .header {
+            background: linear-gradient(to bottom, #ffd1a9, white);
+            padding: 20px;
+            text-align: center;
             font-size: 24px;
             font-weight: bold;
+            color: #333;
         }
+
+        /* Khung giữa trang */
         .container {
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            max-width: 800px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
             padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .container img {
-            width: 200px;
-            height: auto;
-            border-radius: 10px;
-            margin-right: 20px;
+
+        .image {
+            flex: 1;
+            text-align: center;
         }
+
+        .image img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
         .text {
-            max-width: 600px;
+            flex: 1;
+            margin-left: 20px;
             text-align: justify;
         }
-        .table-container {
-            display: flex;
-            justify-content: center;
-            margin: 20px;
-        }
+
+        /* Bảng */
         table {
             width: 80%;
+            margin: 20px auto;
             border-collapse: collapse;
+            text-align: center;
         }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
         th, td {
-            border: 1px solid #FFDAB9;
             padding: 10px;
-            text-align: center;
         }
+
         th {
-            background: #FFA07A;
-            color: white;
+            background-color: #f4f4f4;
         }
-		.back-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
+
+        /* Pano cuối trang */
+        .footer {
             text-align: center;
-            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
         }
-        .back-button:hover {
-            background-color: #0056b3;
+
+        .footer a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #007BFF;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="pano"> TRONG DUY </div>
-    
-    <div class="container">
-        <img src="https://s.net.vn/0iSa" alt="Hình ảnh giới thiệu">
-        <div class="text">
-            <p>Hello everyone, I'm Duy. Currently, I am a CBT-er, and I especially love music and drawing, am passionate about running, and often when I have free time, I will jog and enjoy the fresh air of nature. In addition, I am very interested in Graphic designer, I am planning to study that profession in the future. Now I will try my best to achieve my first goal which is to get into the school of my dream. In life, I will always try to learn, develop myself and share positive things with people around me.</p>
-        </div>
-    
-    
-    <div class="https://s.net.vn/0iSa">
-        <table>
-            <tr>    
-                <th>Date of birth</th> <th>Height</th> <th>Weight</th> <th>Phone number</th> <th>Email</th> <th>Zodiac sign </th> <th>  Nickname</th> <th>Contact facebook</th>
-            </tr>
-            <tr>
-                <td>24/07/2007</td> <td> 1,73m</td> <td> 60 kg</td> <td> 0939764810</td> <td> trongduyhotro2007@gmail.com</td> <td>CANCER ZODIAC SIGN</td> <td>YuD</td> <td> <a href="https://www.facebook.com/duy.trong.3975?locale=vi_VN"> Trần Trọng Duy </a></td>
-            </tr>							
-    </div>
-    
-    <a href="index.html" class="back-button">Quay về Trang chính</a>
 
+    <!-- Pano đầu trang -->
+    <div class="header">
+        TRỌNG DUY
+    </div>
+
+    <!-- Khung giữa trang -->
+    <div class="container">
+        <div class="image">
+            <img src="https://s.net.vn/0iSa" alt="Sample Image">
+        </div>
+        <div class="text">
+            <p>
+                Chào mọi người, mình là Duy. Hiện tại mình đang là 1 CBT-er, và mình đặc biệt yêu thích âm nhạc và vẽ vời, đam mê chạy bộ và thường có thời gian rảnh thì sẽ vừa chạy bộ vừa tận hưởng không khí trong lành của thiên nhiên. Ngoài ra, mình rất quan tâm đến Graphic designer, mình đang có ý định sẽ theo học ngành nghề đó trong tương lai. Hiện tại mình sẽ cố gắng hết mình để đạt được mục tiêu đầu tiên chính là vào được ngôi trường mà mình mơ ước. Trong cuộc sống, mình sẽ luôn cố gắng học hỏi, phát triển bản thân và chia sẻ những điều tích cực với mọi người xung quanh.
+			
+				</p>
+        </div>
+    </div>
+
+    <!-- Bảng -->
+    <table>
+         <tr>
+					<th>Ngày sinh</th>
+                    <th>Chiều cao</th>
+                    <th> Cân nặng</th>
+                    <th>Số điện thoại</th>
+                    <th>Email</th>
+                    <th>Cung hoàng đạo</th>
+                    <th>Nickname</th>
+                    <th>Liên hệ facebook</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 2 hàng -->
+                <tr>
+					<td>24/07/2007 </td>
+                    <td>1,73m </td>
+                    <td>60 kg</td>
+                    <td>0939764810</td>
+                    <td>trongduyhotro2007@gmail.com</td>
+                    <td>Sư Tử</td>
+                    <td>YuD</td>
+                    <td><a href="https://www.facebook.com/duy.trong.3975?locale=vi_VN"> Trần Trọng Duy </a></td>
+                </tr>
+    </table>
+
+    <!-- Pano cuối trang -->
+    <div class="footer">
+        <a href="javascript:history.back()">Quay về trang trước</a>
+    </div>
+
+</body>
+</html>
