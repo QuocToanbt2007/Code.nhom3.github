@@ -1,75 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-<meta charset = "utf-8">
-<style>
-	body {color: black;}
-	h1 {color: blue; text-align: center;}
-	h2 { color: red;}
-</style> 
-<title>SO SÁNH, ĐÁNH GIÁ HAI TÁC PHẨM TRUYỆN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TRAN TRONG DUY </title>
+    <style>
+		h1{
+			display: none;
+			}
+        body {
+            font-family: Script, cursive;
+            background: linear-gradient(to bottom, #FFDAB9, #FFFFFF);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .pano {
+            background: #FFDAB9;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .text {
+            max-width: 600px;
+            text-align: justify;
+        }
+        .table-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #FFDAB9;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #FFA07A;
+            color: white;
+        }
+		
+    </style>
 </head>
 <body>
-<div>
-<h1> SO SÁNH, ĐÁNH GIÁ HAI TÁC PHẨM TRUYỆN </h1>
-<h2> Dàn ý chung</h2>
-<image src="https://xcdn-cf.vuihoc.vn/upload/5c209fe6176b0/2024/07/15/202a_soan-bai-viet-bai-van-nghi-luan-so-sanh-danh-gia-hai-tac-pham-truyen-1.png " alt = " hinnh anh"> 
-<h2> 1. Mở bài</h2>
-<p style ="font-size: 20px "> - Dẫn dắt và giới thiệu đối tượng so sánh: tên hai tác phẩm, hai tác giả. </p>
-<p style ="font-size:20px"> - Nêu vấn đề cần so sánh.</p>
-<h2> 2. Thân bài</h2>
-<p style ="color: red; font-size:20px"> * Đoạn khái quát chung:</p>
-<p style ="font-size:20px"> - Giới thiệu vài nét về hai tác giả (Nếu là tác giả được học trong chương trình hoặc được giới thiệu trong đề thi).</p>
-<p style ="font-size:20px"> - Giới thiệu vài nét về hai tác phẩm: </p>
-<p style ="font-size:20px">+ Hoàn cảnh ra đời (Căn cứ vào phần chú thích giới thiệu trong để thi). </p>
-<p style ="font-size:20px"> + Đề tài, cốt truyện, nhân vật chính (Căn cứ vào văn bản).</p>
-<p style ="font-size:20px"> - Khái quát điểm giống và khác nhau được thể hiện qua hai tác phẩm/ đoạn trích.</p>
-<p style ="color: red; font-size:20px"> * Luận điểm 1. Điểm giống nhau của hai tác phẩm đoạn trích về nội dung, nghệ thuật.</p>
-<p style ="font-size:20px"> + Điểm giống về nội dung: Đề tài, chủ đề, hình tượng nhân vật, giá trị hiện thực, nhân đạo,... của hai tác phẩm truyện.</p>
-<p style ="font-size:20px"> + Điểm giống về nghệ thuật: Ngôi kể, điểm nhìn, cốt truyện, kết cấu truyện, nghệ thuật xây dựng nhân vật, ngôn ngữ, giọng điệu,... của hai tác phẩm truyện.</p>
-<p style ="color: red; font-size:20px">* Luận điểm 2. Điểm khác nhau của hai tác phẩm/ đoạn trích về nội dung, nghệ thuật.</p>
-<p style ="font-size:20px">- Điểm khác nhau về nội dung: </p>
-<p style ="font-size:20px"> + Tác phẩm/ đoạn trích 1: Tư tưởng chủ đề của tác phẩm có gì khác? Số phận cuộc đời, vẻ đẹp của hình tượng nhân vật trong tác phẩm có gì khác? Nét mới về giá trị hiện thực, giá trị nhân đạo, tư tưởng chủ đề của tác phẩm?</p>
-<p style ="font-size:20px"> + Tác phẩm/ đoạn trích 2: Nét khác biệt về tư tưởng chủ đề của tác phẩm là gì? Hình tượng nhân vật có số phận cuộc đời, vẻ đẹp như thế nào? Có điểm khác biệt như thế nào? Nét mới về giá trị hiện thực, giá trị nhân đạo của tác phẩm?</p>
-<p style ="font-size:20px"> - Điểm khác nhau về nghệ thuật:</p>
-<p style ="font-size:20px"> + Tác phẩm/ đoạn trích 1: Ngôi kể, điểm nhìn, cốt truyện, kết cấu truyện, nghệ thuật xây dựng nhân vật, ngôn ngữ, giọng điệu,...</p>
-<p style ="font-size:20px"> + Tác phẩm/ đoạn trích 2: Ngôi kể, điểm nhìn, cốt truyện, kết cấu truyện, nghệ thuật xây dựng nhân vật, ngôn ngữ, giọng điệu,...</p>
-<p style ="color: red; font-size:20px">* Luận điểm 3. Lí giải điểm giống, khác nhau và nêu ý nghĩa. </p>
-<p style ="font-size:20px">- Lí giải vì sao có điểm tương đồng, khác biệt?<p>
-<p style ="font-size:20px">+ Bối cảnh thời đại.<p>
-<p style ="font-size:20px">+ Đặc trưng thi pháp của thời kì/ giai đoạn văn học.<p>
-<p style ="font-size:20px">+ Phong cách nghệ thuật riêng của tác giả.<p> 
-<p style ="font-size:20px">- Ý nghĩa của sự tương đồng, khác biệt:<p>
-<p style ="font-size:20px">+ Sự thống nhất trong quan điểm, cách nhìn nhận của tác giả, đặc trưng thi pháp của thời kì/ giai đoạn; xu thế chung của thời đại.<p>
-<p style ="font-size:20px">+ Sự độc đáo, đa dạng trong phong cách nghệ thuật. Sự phong phú của nền văn học.<p>
-<p style ="font-size:20px">* Đoạn văn đánh giá<p>
-<p style ="font-size:20px">- Đánh giá chung về sự tương đồng, khác biệt giữa hai tác phẩm và khẳng định giá trị độc đáo của mỗi tác phẩm.<p>
-<p style ="font-size:20px">- Khẳng định sự đóng góp của hai tác phẩm, hai tác giả.<p>
-<h2> 3. Kết bài</h2>
-<p style ="font-size:20px">- Khẳng định ý nghĩa của so sánh, đánh giá hai tác phẩm. Có thể nêu những ấn tượng của bản thân.</p> 
-<hr>
-<p style=" color: green"> Chúc các bạn học tốt </p>
+    <div class="pano"> TRONG DUY </div>
+    
+    <div class="container">
+        <img src="https://s.net.vn/0iSa" alt="Hình ảnh giới thiệu">
+        <div class="text">
+            <p>Hello everyone, I'm Duy. Currently, I am a CBT-er, and I especially love music and drawing, am passionate about running, and often when I have free time, I will jog and enjoy the fresh air of nature. In addition, I am very interested in Graphic designer, I am planning to study that profession in the future. Now I will try my best to achieve my first goal which is to get into the school of my dream. In life, I will always try to learn, develop myself and share positive things with people around me.</p>
+        </div>
+    </div>
+    
+    <div class="https://s.net.vn/0iSa">
+        <table>
+            <tr>    
+                <th>Date of birth</th> <th>Height</th> <th>Weight</th> <th>Phone number</th> <th>Email</th> <th>Zodiac sign </th> <th>  Nickname</th> <th>Contact facebook</th>
+            </tr>
+            <tr>
+                <td>24/07/2007</td> <td> 1,73m</td> <td> 60 kg</td> <td> 0939764810</td> <td> trongduyhotro2007@gmail.com</td> <td>CANCER ZODIAC SIGN</td> <td>YuD</td> <td> <a href="https://www.facebook.com/duy.trong.3975?locale=vi_VN"> Trần Trọng Duy </a></td>
+            </tr>							
+    </div>
+    
+    <div class="home-pano">
+    <a href="Profile group 3.html" style="color: black; text-decoration: none;">🏠 HOME </a>
 </div>
-<p>Trang này được lập bởi<em> nhóm 3</em></p>
-<p> <a href="https://www.facebook.com/cotranthuyduong.vanhoc?locale=vi_VN"> Lớp văn cô Dương</a><p>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
