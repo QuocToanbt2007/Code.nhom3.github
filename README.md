@@ -2,82 +2,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> TRAN TRONG DUY </title>
+    <title>Trang Web Nhóm 3</title>
     <style>
-		h1{
-			display: none;
-			}
         body {
-            font-family: Script, cursive;
-            background: linear-gradient(to bottom, #FFDAB9, #FFFFFF);
             margin: 0;
-            padding: 0;
+            font-family: cursive;
+            background: linear-gradient(to bottom, #D2B48C, white);
             text-align: center;
         }
-        .pano {
-            background: #FFDAB9;
+        .header {
+            background: #D2B48C;
             color: white;
-            padding: 15px;
+            padding: 20px;
             font-size: 24px;
             font-weight: bold;
         }
-        .container {
+        .main-image {
+            margin: 20px auto;
+            width: 50%;
+        }
+        .links {
             display: flex;
-            align-items: center;
             justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
             padding: 20px;
         }
-        .container img {
-            width: 200px;
-            height: auto;
-            border-radius: 10px;
-            margin-right: 20px;
-        }
-        .text {
-            max-width: 600px;
-            text-align: justify;
-        }
-        .table-container {
-            display: flex;
-            justify-content: center;
-            margin: 20px;
-        }
-        table {
-            width: 80%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #FFDAB9;
-            padding: 10px;
+        .links a {
+            text-decoration: none;
+            color: black;
             text-align: center;
         }
-        th {
-            background: #FFA07A;
-            color: white;
+        .links img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            display: block;
         }
-		
+        .form-section {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 40%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .footer {
+            background: #D2B48C;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <div class="pano"> TRONG DUY </div>
+    <div class="header"> WELCOME TO BOY GROUP </div>
+    <a href="#"><img class="main-image" src="main.jpg" alt="Ảnh chính"></a>
+    <div class="links">
+        <a href="https://quoctoanbt2007.github.io/Annhom3.com/">
+            <img src="https://s.pro.vn/hcoR" alt="Thien An ">
+        </a>
+        <a href="https://quoctoanbt2007.github.io/Baonhom3.com/">
+            <img src="https://short.com.vn/VPwa" alt=" Gia Bao ">
+        </a>
+        <a href="https://quoctoanbt2007.github.io/Duynhom3.com/">
+            <img src="https://s.pro.vn/Aoi0" alt="	Trọng Duy">
+        </a>
+        <a href="https://quoctoanbt2007.github.io/Toannhom3.com/">
+            <img src="https://s.pro.vn/LNg7" alt="Quốc Toản">
+        </a>
+		
     
-    <div class="container">
-        <img src="https://s.net.vn/0iSa" alt="Hình ảnh giới thiệu">
-        <div class="text">
-            <p>Hello everyone, I'm Duy. Currently, I am a CBT-er, and I especially love music and drawing, am passionate about running, and often when I have free time, I will jog and enjoy the fresh air of nature. In addition, I am very interested in Graphic designer, I am planning to study that profession in the future. Now I will try my best to achieve my first goal which is to get into the school of my dream. In life, I will always try to learn, develop myself and share positive things with people around me.</p>
-        
+    <div class="form-section">
+        <h3> Give your information </h3>
+        <form>
+            <label>Phone:</label><br>
+            <input type="text" name="name" required><br>
+            <label> Phone:</label><br>
+            <input type="tel" name="phone" required><br>
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+            <button type="submit">Send </button>
+        </form>
     
-    
-    <div class="https://s.net.vn/0iSa">
-        <table>
-            <tr>    
-                <th>Date of birth</th> <th>Height</th> <th>Weight</th> <th>Phone number</th> <th>Email</th> <th>Zodiac sign </th> <th>  Nickname</th> <th>Contact facebook</th>
-            </tr>
-            <tr>
-                <td>24/07/2007</td> <td> 1,73m</td> <td> 60 kg</td> <td> 0939764810</td> <td> trongduyhotro2007@gmail.com</td> <td>CANCER ZODIAC SIGN</td> <td>YuD</td> <td> <a href="https://www.facebook.com/duy.trong.3975?locale=vi_VN"> Trần Trọng Duy </a></td>
-            </tr>							
-    
-    
-    <div class="home-pano">
-    <a href="Profile group 3.html" style="color: black; text-decoration: none;">🏠 HOME </a>
-
+    <div class="footer"> Website made by group 3</div>
