@@ -65,7 +65,7 @@
         <img src="https://s.net.vn/0iSa" alt="Hình ảnh giới thiệu">
         <div class="text">
             <p>Hello everyone, I'm Duy. Currently, I am a CBT-er, and I especially love music and drawing, am passionate about running, and often when I have free time, I will jog and enjoy the fresh air of nature. In addition, I am very interested in Graphic designer, I am planning to study that profession in the future. Now I will try my best to achieve my first goal which is to get into the school of my dream. In life, I will always try to learn, develop myself and share positive things with people around me.</p>
-        </div>
+        
     
     
     <div class="https://s.net.vn/0iSa">
@@ -76,7 +76,7 @@
             <tr>
                 <td>24/07/2007</td> <td> 1,73m</td> <td> 60 kg</td> <td> 0939764810</td> <td> trongduyhotro2007@gmail.com</td> <td>CANCER ZODIAC SIGN</td> <td>YuD</td> <td> <a href="https://www.facebook.com/duy.trong.3975?locale=vi_VN"> Trần Trọng Duy </a></td>
             </tr>							
-    </div>
+    
     
     <div class="home-pano">
     <a href="Profile group 3.html" style="color: black; text-decoration: none;">🏠 HOME </a>
