@@ -66,7 +66,7 @@
         <div class="text">
             <p>Hello everyone, I'm Duy. Currently, I am a CBT-er, and I especially love music and drawing, am passionate about running, and often when I have free time, I will jog and enjoy the fresh air of nature. In addition, I am very interested in Graphic designer, I am planning to study that profession in the future. Now I will try my best to achieve my first goal which is to get into the school of my dream. In life, I will always try to learn, develop myself and share positive things with people around me.</p>
         </div>
-    </div>
+    
     
     <div class="https://s.net.vn/0iSa">
         <table>
