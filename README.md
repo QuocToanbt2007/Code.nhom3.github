@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -81,6 +80,4 @@
     
     <div class="home-pano">
     <a href="Profile group 3.html" style="color: black; text-decoration: none;">🏠 HOME </a>
-</div>
-</body>
-</html>
+
